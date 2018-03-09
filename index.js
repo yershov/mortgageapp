@@ -11,7 +11,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
     var username="kyershov";
     var userAddress="52bd085ce345bc08de583e7997885f9e7a7cfacf";
     var contractAddress="68e988b2a0c6712f4cff2217fe88e892f5ba3eee";
-    var value=70000;
+    var value=17000;
 
     var callContractMethodUrl = 'https://stratodev.blockapps.net/bloc/v2.2/users/' + username + '/' + userAddress + '/contract/MortgageContract/' + contractAddress + '/call?resolve';
 
