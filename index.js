@@ -34,7 +34,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
           dataType: 'json'
     })
           .done(function (response) {
-            alert('The value in storage is: ' + response.data.contents[0]);
+            //alert('The value in storage is: ' + response.data.contents[0]);
           })
           .fail(function(error) {
             alert('Error: wrong user credentials provided or Bloc API is not reachable');
